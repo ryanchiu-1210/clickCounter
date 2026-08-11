@@ -1,3 +1,4 @@
+using System.Text.Json;
 namespace clickCounter
 {
     public partial class Form1 : Form
@@ -5,6 +6,9 @@ namespace clickCounter
         public Form1()
         {
             InitializeComponent();
+            string filepath = "count.json";
+            long json = JsonSerializer.Deserialize<long>(File.ReadAllText(filepath));
+            label2.Text = json.ToString();
         }
 
         private void timelbl_Click(object sender, EventArgs e)
@@ -20,11 +24,18 @@ namespace clickCounter
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
+            long ww =long.Parse(label2.Text.Trim());
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            string json = JsonSerializer.Serialize(ww, options);
+            File.WriteAllText("count.json", json);
             Application.Exit();
         }
-        static int dd = 0;
+ 
         private void clickbtn_Click(object sender, EventArgs e)
-        {
+        {     
             string str = label2.Text.Trim();
             if (string.IsNullOrEmpty(str))
             {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("clickCounter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec8f32a520f3eb5e9dbb1eb71c5a90b1b1c35a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96cee6f319d4d21f36bca0921513034ecd6dc3ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("clickCounter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("clickCounter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
