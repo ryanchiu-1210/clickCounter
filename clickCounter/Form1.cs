@@ -13,7 +13,7 @@ namespace clickCounter
 
         private void timelbl_Click(object sender, EventArgs e)
         {
-            timelbl.Text = $"System time：{DateTimeOffset.Now.ToString("yyyy-MM-dd HH:mm:ss")}";
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace clickCounter
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
-            long ww =long.Parse(label2.Text.Trim());
+            long ww = long.Parse(label2.Text.Trim());
             var options = new JsonSerializerOptions
             {
                 WriteIndented = true
@@ -33,9 +33,9 @@ namespace clickCounter
             File.WriteAllText("count.json", json);
             Application.Exit();
         }
- 
+
         private void clickbtn_Click(object sender, EventArgs e)
-        {     
+        {
             string str = label2.Text.Trim();
             if (string.IsNullOrEmpty(str))
             {
@@ -49,6 +49,11 @@ namespace clickCounter
         private void clearBtn_Click(object sender, EventArgs e)
         {
             label2.Text = "0";
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timelbl.Text = $"System time：{DateTimeOffset.Now.ToString("yyyy-MM-dd HH:mm:ss")}";
         }
     }
 }

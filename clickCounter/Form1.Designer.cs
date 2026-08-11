@@ -92,6 +92,10 @@
             timelbl.Text = "System time：";
             timelbl.Click += timelbl_Click;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // label2
             // 
             label2.AutoSize = true;
