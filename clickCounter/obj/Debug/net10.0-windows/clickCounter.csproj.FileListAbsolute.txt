@@ -1,0 +1,16 @@
+D:\ryanchiu-1210\clickCounter\bin\Debug\net10.0-windows\clickCounter.exe
+D:\ryanchiu-1210\clickCounter\bin\Debug\net10.0-windows\clickCounter.deps.json
+D:\ryanchiu-1210\clickCounter\bin\Debug\net10.0-windows\clickCounter.runtimeconfig.json
+D:\ryanchiu-1210\clickCounter\bin\Debug\net10.0-windows\clickCounter.dll
+D:\ryanchiu-1210\clickCounter\bin\Debug\net10.0-windows\clickCounter.pdb
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.Form1.resources
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.csproj.GenerateResource.cache
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.GeneratedMSBuildEditorConfig.editorconfig
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.AssemblyInfoInputs.cache
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.AssemblyInfo.cs
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.csproj.CoreCompileInputs.cache
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.dll
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\refint\clickCounter.dll
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.pdb
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\clickCounter.genruntimeconfig.cache
+D:\ryanchiu-1210\clickCounter\obj\Debug\net10.0-windows\ref\clickCounter.dll
