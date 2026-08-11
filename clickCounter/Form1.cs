@@ -22,7 +22,7 @@ namespace clickCounter
         {
             Application.Exit();
         }
-
+        static int dd = 0;
         private void clickbtn_Click(object sender, EventArgs e)
         {
             string str = label2.Text.Trim();

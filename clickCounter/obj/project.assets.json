@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ryanchiu-1210\\clickCounter\\clickCounter.csproj",
+      "projectUniqueName": "D:\\ryanchiu-1210\\clickCounter\\clickCounter\\clickCounter.csproj",
       "projectName": "clickCounter",
-      "projectPath": "D:\\ryanchiu-1210\\clickCounter\\clickCounter.csproj",
+      "projectPath": "D:\\ryanchiu-1210\\clickCounter\\clickCounter\\clickCounter.csproj",
       "packagesPath": "C:\\Users\\Ryan1\\.nuget\\packages\\",
-      "outputPath": "D:\\ryanchiu-1210\\clickCounter\\obj\\",
+      "outputPath": "D:\\ryanchiu-1210\\clickCounter\\clickCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ryan1\\AppData\\Roaming\\NuGet\\NuGet.Config",
